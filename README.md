@@ -22,6 +22,9 @@ This document outlines the steps to set up and run a Drogon web application usin
 
     ```bash
     docker run -it --name drogon-dev -p 8080:8080 -v "C:\Users\ebachlitzanakis\Desktop\MyDrogonApp:/app" drogonframework/drogon /bin/bash
+
+    cd /app
+    drogon_ctl create project MyWebApp
     ```
 
     * `-it`: Runs the container in interactive mode with a pseudo-TTY.
